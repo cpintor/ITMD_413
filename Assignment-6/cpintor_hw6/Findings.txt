@@ -1,0 +1,13 @@
+I visualized all of the data I gathered from the three types of sorting
+algorithms that I tested. You may view the line graphs in the image .png files provided.
+
+For bubble sorting, I had trouble running the 50000 - 90000 size sortings because it was taking
+a lot of time so I ended up not getting that data but when plotting the two initial sizes
+I could see that the time was linearly increasing the larger the size.
+
+In quick sort something interesting happened when I ran the 90000 size because it ended up
+running for less time than when I ran 70000. You can see in the line graph as the 90000 ended
+up running for less time than 70000.
+
+For shell sort, the times are almost similar to quick sort, except for 90000 which ends up
+being twice that of quick sort's time at 0.4588.

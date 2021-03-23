@@ -1,0 +1,26 @@
+1. Did you complete your assignment and did your program run without errors?
+    Yes, I completed both programs without errors.
+
+2. Did your program produce the correct result?
+    Yes, it did.
+
+3. Did you test your program thoroughly?
+    I ran my program several times.
+
+4. How much time did you spend to complete your assignment?
+    I spent around 5 hours.
+
+5. Did you write the program yourself? Did you get any help from anyone?
+    I wrote the program myself.
+
+6. When you encountered obstacles to complete your program, how did you resolve the
+    issues? Did you use Google or other resources to get help? Describe how Google or other
+    resources was abled or not able to assist you?
+    I had some trouble on part 2 of the homework when making the program into different functions. I ended up using
+    a lambda function inside another function. I watched one of the YouTube videos provided to solve my issue.
+
+7. What did you learn from doing this assignment?
+    I learned more about functions and how they're called from other files in the directory.
+
+8. Any other information you would like to share with your instructor?
+    No.

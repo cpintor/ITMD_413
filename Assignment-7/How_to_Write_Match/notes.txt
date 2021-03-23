@@ -1,0 +1,2 @@
+.   - Any character except new line
+\d  - Digit (
