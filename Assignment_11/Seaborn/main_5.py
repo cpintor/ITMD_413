@@ -10,7 +10,7 @@ df = sns.load_dataset('iris')
 df = sns.load_dataset("tips")
 # sns.violinplot(x='day',y='total_bill',data=df)
 
-
+# using two sets
 sns.regplot(x='total_bill',y='tip',data=df)
 sns.lmplot(x='total_bill',y='tip',data=df)
 plt.show()
