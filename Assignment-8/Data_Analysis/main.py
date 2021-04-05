@@ -6,7 +6,7 @@ import numpy as np
 import statistics as st
 import csv
 
-with open('/Users/crissyp/projects/ITMD-413/Assignment-8/Data_Analysis/winequality-red.csv', 'r') as f:
+with open('/Users/crissyp/projects/ITMD-413/ITMD_413/Assignment-8/Data_Analysis/winequality-red.csv', 'r') as f:
     wines = list(csv.reader(f, delimiter=";"))
 
 wines = np.array(wines[1:], dtype=np.float) # skip first row
