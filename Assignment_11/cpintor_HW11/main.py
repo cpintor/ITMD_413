@@ -12,6 +12,7 @@ import numpy as np
 # Importing file
 workers = pd.read_csv('/Users/crissyp/projects/ITMD-413/ITMD_413/Assignment_11/cpintor_HW11/workerstips.csv')
 flights = pd.read_csv('/Users/crissyp/projects/ITMD-413/ITMD_413/Assignment_11/cpintor_HW11/flightsData.csv')
+titanic = pd.read_csv('/Users/crissyp/projects/ITMD-413/ITMD_413/Assignment_11/cpintor_HW11/titanic.csv')
 
 #####################
 # a)
@@ -79,3 +80,5 @@ plt.title('Average Number of Passengers per Month')
 plt.xlabel('Year')
 plt.ylabel('Passengers')
 plt.show()
+
+# f
