@@ -47,6 +47,6 @@ class Store:
 
     def is_store_open(self, availability):
         if availability == 'open':
-            return 'true'
+            return True
         else:
-            return 'false'
+            return False
