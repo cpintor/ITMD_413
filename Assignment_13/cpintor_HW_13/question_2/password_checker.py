@@ -1,18 +1,27 @@
 '''
-This program  is responsible for checking that the
+This program is responsible for checking that the
 password meets some pre-defined criteria
+
 Name: Cristian Pintor
 '''
 
 
 def does_password_pass_check(password):
-    if len(password) < 9:
+    if len(password) == 0:
         return False
+    elif password[0].isdigit():
+        return True
     else:
-        print('Good job.')
+        password = password[1:]
+        return does_password_pass_check(password)
 
 
-pw = str(input('Enter password: '))
-fact = does_password_pass_check(pw)
+def main():
+    password = input('Please enter a password with at least one digit: ')
+    if does_password_pass_check(password):
+        print('Nice password!')
+    else:
+        print('Check your password again')
 
-print('Idk what Im doing', fact)
+
+main()
