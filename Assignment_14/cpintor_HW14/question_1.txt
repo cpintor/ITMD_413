@@ -1,0 +1,30 @@
+a) Explain what is Machine Learning? How does it work? What does it do?
+    Machine learning is an application of artificial intelligence that
+    provides systems the ability to automatically learn and improve
+    from experience without being explicit programmed.
+
+    One way it works is that you will feed the computer or program some
+    data and then it'll find a pattern in that data. Then based on the
+    patterns it finds the system will try to group that data to different
+    categories and learns from feed back.
+
+b) There are three types of Machine Learning Algorithms; Supervised Learning,
+Unsupervised Learning, and Reinforcement Learning? Describe each one of them and
+provide some examples on each algorithm.
+    1. Supervised Machine learning: the machine learns from the training data
+    that is labeled.
+
+    An example would be feeding a system photos of apples and let it know the images
+    are apples. Then it is provides only images of apples and the system will know the
+    images are indeed apples and will remember this pattern.
+
+    2.Unsupervised learning: non-labeled training data.
+
+    An example would be to feed the system different images of different fruits and the
+    system will create a pattern based on each type of fruit.
+
+    3. Reinforcement learning: the machine learns on its own
+
+    In this example, an image of a apple is fed to the system and it tries to guess. If it
+    guesses incorrectly then it is fed the correct answer and remembers. Then next time it
+    should give us the correct answer.
