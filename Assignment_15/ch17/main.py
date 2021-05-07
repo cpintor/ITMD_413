@@ -1,3 +1,11 @@
+"""
+This program demonstrates how to use SQLite3 with Python and how
+to work with databases.
+
+Name: Cristian Pintor
+"""
+
+
 import sqlite3
 
 connection = sqlite3.connect('books.db')
@@ -65,7 +73,5 @@ pd.read_sql('SELECT id, first, last FROM authors',
 
 cursor = cursor.execute('DELETE FROM authors WHERE id=6')
 
-out = pd.read_sql('SELECT id, first, last FROM authors',
+pd.read_sql('SELECT id, first, last FROM authors',
                 connection, index_col=['id'])
-
-print(out)
